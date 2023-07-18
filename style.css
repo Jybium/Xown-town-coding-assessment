@@ -174,6 +174,11 @@ header img {
   width: 100%;
 }
 
+.input .material-symbols-outlined {
+  font-size: 18px;
+  font-weight: 200;
+}
+
 /* PROFILE DETAILS OF THE HEADER SECTION */
 
 .profile {
