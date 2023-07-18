@@ -176,6 +176,7 @@ header img {
 
 .input .material-symbols-outlined {
   font-size: 18px;
+  color: black;
   font-weight: 200;
 }
 
@@ -185,6 +186,7 @@ header img {
   font-size: 14px;
   align-items: center;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
 }
 .profile div {
@@ -234,6 +236,7 @@ header img {
 }
 .main-title {
   display: flex;
+  color: #5a61e9;
   margin-bottom: 5px;
   gap: 10px;
 }
