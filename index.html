@@ -14,9 +14,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       href="https://xownsolutions.com/assets/images/favicon.ico"
@@ -26,53 +29,86 @@
   <body>
     <main>
       <menu>
-        <div>☀☀ <span>LearningLight</span></div>
+        <div class="logo">
+          <span class="material-symbols-outlined">light_mode</span>
+          <span>LearningLight</span>
+        </div>
         <nav>
           <ul>
-            <li><span class="material-symbols-outlined"></span>Home</li>
-            <li><span class="material-symbols-outlined"></span>Courses</li>
-            <li><span class="material-symbols-outlined"></span>Training</li>
-            <li><span class="material-symbols-outlined"></span>statistics</li>
-            <li><span class="material-symbols-outlined"></span>Settings</li>
+            <li class="active">
+              <span class="material-symbols-outlined">house</span>Home
+            </li>
+            <li>
+              <span class="material-symbols-outlined">school</span>Courses
+            </li>
+            <li>
+              <span class="material-symbols-outlined">wb_incandescent</span
+              >Training
+            </li>
+            <li>
+              <span class="material-symbols-outlined">donut_small</span
+              >statistics
+            </li>
+            <li>
+              <span class="material-symbols-outlined">settings</span>Settings
+            </li>
           </ul>
         </nav>
-        <div>
-          <div class="div">
-            <span class="material-symbols-outlined"></span>
-            <p>Homework</p>
+        <section class="homework-section">
+          <div class="homework-head">
+            <div class="div">
+              <span class="material-symbols-outlined">library_books</span>
+              <p>Homework</p>
+            </div>
+            <span class="material-symbols-outlined">arrow_right_alt</span>
           </div>
-          <span class="material-symbols-outlined"></span>
-        </div>
-        <div>
-          <div>
-            <p>Basic of composition</p>
-            <input type="range" name="" id="" />
+          <div class="homework">
+            <div>
+              <p>Basic of composition</p>
+              <hr class="hr1" />
+              <div class="flex">
+                <p>4/5</p>
+                <p>80%</p>
+              </div>
+            </div>
+            <div>
+              <p>Typography Basics</p>
+              <hr class="hr2" />
+              <div class="flex">
+                <p>3/5</p>
+                <p>60%</p>
+              </div>
+            </div>
+            <div>
+              <p>colour Basics</p>
+              <hr class="hr3" />
+              <div class="flex">
+                <p>2/5</p>
+                <p>40%</p>
+              </div>
+            </div>
+            <div>
+              <p>Modular Mesh</p>
+              <hr class="hr2" />
+              <div class="flex">
+                <p>3/5</p>
+                <p>60%</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <p>Typography Basics</p>
-            <input type="range" name="" id="" />
-          </div>
-          <div>
-            <p>colour Basics</p>
-            <input type="range" name="" id="" />
-          </div>
-          <div>
-            <p>Modular Mesh</p>
-            <input type="range" name="" id="" />
-          </div>
-        </div>
+        </section>
       </menu>
       <aside>
         <header class="header">
           <div class="input">
             <span class="material-symbols-outlined">search</span>
-            <input type="text" name="" id="" />
+            <input type="text" name="" id="" placeholder="Search ..." />
           </div>
           <div>
             <div class="profile">
               <span class="material-symbols-outlined">notifications</span>
               <div>
-                <div></div>
+                <img src="./Yemi.jpg" alt="" />
                 <p>Debra Cooper</p>
               </div>
             </div>
@@ -81,7 +117,7 @@
         <section class="subjects">
           <div>English</div>
           <div>Product</div>
-          <div>UI/UX Design</div>
+          <div class="active">UI/UX Design</div>
           <div>Photography</div>
           <div>Time Management</div>
           <div>Development</div>
@@ -96,8 +132,134 @@
               <p class="main-title-number">162</p>
             </div>
             <div class="article">
-              <div class="inclusive"></div>
-              <div class="trends"></div>
+              <div class="inclusive">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                  "
+                >
+                  <div>
+                    <p style="font-size: 20px">Inclusive Design Principles</p>
+                    <div
+                      style="
+                        margin: 10px 0;
+                        padding: 4px;
+                        display: flex;
+                        gap: 5px;
+                        align-items: center;
+                        border-radius: 5px;
+                        font-size: 11px;
+                        background-color: #c5c7ed;
+                        width: max-content;
+                        height: max-content;
+                      "
+                    >
+                      <span
+                        class="material-symbols-outlined"
+                        style="font-size: 16px"
+                        >schedule</span
+                      >
+                      5 min
+                    </div>
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 5px;
+                      font-size: 14px;
+                    "
+                  >
+                    <img
+                      src="./Tiwa.jpeg"
+                      alt=""
+                      style="
+                        width: 30px;
+                        height: 30px;
+                        display: block;
+                        border-radius: 5px;
+                      "
+                    />
+                    <div>
+                      <p style="font-size: 12px">Rosemary Steward</p>
+                      <p style="font-size: 11px">Feb 11</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <img src="./inclusive.png" alt="" />
+                </div>
+              </div>
+              <div class="trends">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                  "
+                >
+                  <div>
+                    <p style="font-size: 20px">Design trends in 2020</p>
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: space-between;
+                      /* gap: 20px; */
+                    "
+                  >
+                    <div
+                      style="
+                        margin: 10px 0;
+                        padding: 4px;
+                        display: flex;
+                        gap: 5px;
+                        align-items: center;
+                        border-radius: 5px;
+                        font-size: 12px;
+                        background-color: #c5c7ed;
+                        width: max-content;
+                        height: max-content;
+                      "
+                    >
+                      <span
+                        class="material-symbols-outlined"
+                        style="font-size: 16px"
+                        >schedule</span
+                      >
+                      1 min
+                    </div>
+                    <div>
+                      <img src="./trends.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 5px;
+                      font-size: 14px;
+                    "
+                  >
+                    <img
+                      src="./Njoku.jpeg"
+                      alt=""
+                      style="
+                        width: 30px;
+                        height: 30px;
+                        display: block;
+                        border-radius: 5px;
+                      "
+                    />
+                    <div>
+                      <p style="font-size: 12px">Bessie Bell</p>
+                      <p style="font-size: 11px">Feb 4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="right">
@@ -106,42 +268,189 @@
               <p class="main-title-number">24</p>
             </div>
             <div class="theme-chat-children">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <div>
+                <img src="./education.png" alt="" />
+                <p>Education</p>
+              </div>
+              <div>
+                <img src="./work.png" alt="" />
+                <p>Work</p>
+              </div>
+              <div>
+                <img src="./university.png" alt="" />
+                <p>University</p>
+              </div>
+              <div>
+                <img src="./technology.png" alt="" />
+                <p>Technology</p>
+              </div>
             </div>
           </section>
         </section>
         <!-- FOR THE DOWN PART -->
-        <section class="main">
+        <section class="main second">
           <section class="left">
             <div class="main-title">
               <p class="main-title-title">Video Lessons</p>
               <p class="main-title-number">124</p>
             </div>
-            <div class="article">
-              <div class="inclusive"></div>
-              <div class="trends"></div>
+            <div class="video">
+              <div class="video1">
+                <div>
+                  <p>We create effective text for landing</p>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 5px;
+                    font-size: 14px;
+                    align-items: center;
+                  "
+                >
+                  <div style="display: flex; gap: 5px">
+                    <img src="./Adora.jpeg" alt="" />
+                    <div>
+                      <p>Randall Mccoy</p>
+                      <p
+                        style="
+                          font-size: 11px;
+                          color: rgba(164, 162, 162, 0.74);
+                        "
+                      >
+                        CEO, Carlifornia Tech
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    style="
+                      padding: 4px;
+                      background-color: rgba(0, 0, 0, 0.726);
+                      font-size: 10px;
+                      color: white;
+                      border-radius: 5px;
+                      height: max-content;
+                    "
+                  >
+                    10:08
+                  </p>
+                </div>
+              </div>
+              <div class="video2">
+                <div class="card1">
+                  <div>
+                    <p style="font-size: 12px">
+                      We make website business card. Training.
+                    </p>
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: space-between;
+                      gap: 5px;
+                      font-size: 13px;
+                      align-items: center;
+                    "
+                  >
+                    <div style="display: flex; gap: 5px">
+                      <img src="./Flutter wave.jpeg" alt="" />
+                      <div>
+                        <p style="font-size: 12px">Jorge Murphy</p>
+                        <p
+                          style="
+                            font-size: 11px;
+                            color: rgba(164, 162, 162, 0.74);
+                          "
+                        >
+                          Senior Designer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card2">
+                  <div>
+                    <p style="font-size: 12px">
+                      Web Animation <br />
+                      The Basics
+                    </p>
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: space-between;
+                      gap: 5px;
+                      font-size: 14px;
+                      align-items: center;
+                    "
+                  >
+                    <div style="display: flex; gap: 5px">
+                      <img src="./Adewale.jpeg" alt="" />
+                      <div>
+                        <p style="font-size: 12px">Randall Richards</p>
+                        <p
+                          style="
+                            font-size: 11px;
+                            color: rgba(128, 128, 128, 0.74);
+                          "
+                        >
+                          Art Director
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="right">
-            <div class="main-title">
+            <div class="top-teacher">
               <p class="main-title-title">Top Teachers</p>
               <p class="main-title-number">
                 <span class="material-symbols-outlined">arrow_right_alt</span>
               </p>
             </div>
+            <!-- TOP TEACHERS -->
             <div class="top-teachers">
-              <div class="teachers">
+              <div class="teacher">
                 <div class="teacher-details">
-                  <div class="teacher-image"></div>
-                  <div>
-                    <p>Marvin Hawkins</p>
+                  <img src="./Wizkid.jpeg" alt="" />
+                  <div style="display: grid; gap: 3px">
+                    <p class="teacher-name">Marvin Hawkins</p>
                     <p>5 years experience</p>
                   </div>
                 </div>
                 <p class="teacher-rating">5.0</p>
+              </div>
+              <div class="teacher">
+                <div class="teacher-details">
+                  <img src="./Messi.jpg" alt="" />
+                  <div style="display: grid; gap: 3px">
+                    <p class="teacher-name">Arthur Mckinney</p>
+                    <p>10 years experience</p>
+                  </div>
+                </div>
+                <p class="teacher-rating">4.9</p>
+              </div>
+              <div class="teacher">
+                <div class="teacher-details">
+                  <img src="./Timi.jpeg" alt="" />
+                  <div style="display: grid; gap: 3px">
+                    <p class="teacher-name">Bessie Watson</p>
+                    <p>2 years experience</p>
+                  </div>
+                </div>
+                <p class="teacher-rating">4.8</p>
+              </div>
+              <div class="teacher">
+                <div class="teacher-details">
+                  <img src="./Asake.jpeg" alt="" />
+                  <div style="display: grid; gap: 3px">
+                    <p class="teacher-name">Albert Bell</p>
+                    <p>3 years experience</p>
+                  </div>
+                </div>
+                <p class="teacher-rating">4.8</p>
               </div>
             </div>
           </section>
